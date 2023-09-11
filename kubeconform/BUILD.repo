@@ -1,0 +1,3 @@
+# This is the BUILD file for the downloaded binary repo
+
+exports_files(["kubeconform"])
