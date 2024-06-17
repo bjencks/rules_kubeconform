@@ -12,7 +12,7 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
     name = "bjencks_rules_kubeconform",
     urls = ["https://github.com/bjencks/rules_kubeconform/releases/download/v0.1/rules_kubeconform-0.1.tar.gz"],
-    sha256 = "TBD",
+    sha256 = "76ae8931516ea298d4d48b8edaf584dc3ecb923bfd9dc321141ff3694e3d20a9",
 )
 load("@bjencks_rules_kubeconform//kubeconform:deps.bzl", "kubeconform_register")
 kubeconform_register()
